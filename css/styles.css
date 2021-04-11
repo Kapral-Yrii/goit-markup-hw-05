@@ -597,7 +597,6 @@ p {
 }
 .footer-link-list {
   display: flex;
-  justify-content: center;
 }
 .footer-link-item:not(:last-child) {
   margin-right: 10px;
