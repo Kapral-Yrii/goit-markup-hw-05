@@ -649,4 +649,9 @@ p {
   width: 11px;
   height: 11px;
   fill: var(--dark-logo-color);
+  transition: fill var(--tr-duration) var(--tr-timing-function);
+}
+.modal-button-close:hover .icon,
+.modal-button-close:focus .icon {
+  fill: var(--accent-color);
 }
