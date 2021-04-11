@@ -552,7 +552,7 @@ p {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 }
 .address {
   margin-top: 20px;
@@ -560,9 +560,13 @@ p {
 .footer-address-link {
   margin-top: 10px;
 }
-.footer-address {
-  margin-right: 70px;
+.widget-block {
+  flex-basis: calc((50% - 45px) / 2);
 }
+.widget-block:last-child {
+  flex-basis: calc(50% - 15px);
+}
+
 .footer-social-links .characteristic-title {
   color: var(--dark-bg-text-color);
   margin-bottom: 20px;
@@ -598,6 +602,9 @@ p {
 .footer-link-item:not(:last-child) {
   margin-right: 10px;
 }
+
+/* modal*/
+
 .backdrop {
   position: fixed;
   top: 0;
